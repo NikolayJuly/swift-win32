@@ -6,10 +6,10 @@ let SwiftWin32: Package =
   Package(name: "SwiftWin32",
           products: [
             .library(name: "SwiftWin32",
-                      type: .dynamic,
+//                      type: .dynamic,
                       targets: ["SwiftWin32"]),
             .library(name: "SwiftWin32UI",
-                      type: .dynamic,
+//                      type: .dynamic,
                       targets: ["SwiftWin32UI"]),
             .executable(name: "UICatalog", targets: ["UICatalog"]),
             .executable(name: "Calculator", targets: ["Calculator"]),
