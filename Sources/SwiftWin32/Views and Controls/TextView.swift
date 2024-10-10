@@ -5,7 +5,7 @@ import WinSDK
 import Foundation
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 // FIXME(compnerd) we would like this to derive from ScrollView

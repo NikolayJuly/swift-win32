@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 /// The timing information for animations that mimics the behavior of a spring.

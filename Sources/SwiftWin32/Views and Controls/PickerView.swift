@@ -7,7 +7,7 @@ import struct Foundation.IndexPath
 import class Foundation.NSAttributedString
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 // Notification Proxy

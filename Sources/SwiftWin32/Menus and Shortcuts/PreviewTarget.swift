@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 /// An object that specifies the container view to use for animations.

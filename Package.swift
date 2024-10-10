@@ -27,12 +27,12 @@ let SwiftWin32: Package =
           targets: [
             .target(name: "CoreAnimation",
                     path: "Sources/SwiftWin32/CoreAnimation"),
-            .target(name: "CoreGraphics",
+            .target(name: "CoreGraphicsWin32",
                     path: "Sources/SwiftWin32/CoreGraphics"),
             .target(name: "SwiftWin32",
                     dependencies: [
                       "CoreAnimation",
-                      "CoreGraphics",
+                      "CoreGraphicsWin32",
                       .product(name: "Logging", package: "swift-log"),
                       .product(name: "OrderedCollections",
                                package: "swift-collections"),
@@ -83,7 +83,7 @@ let SwiftWin32: Package =
                               ]),
             .target(name: "TestUtilities", path: "Tests/Utilities"),
             .testTarget(name: "AutoLayoutTests", dependencies: ["SwiftWin32"]),
-            .testTarget(name: "CoreGraphicsTests", dependencies: ["CoreGraphics"]),
+            .testTarget(name: "CoreGraphicsTests", dependencies: ["CoreGraphicsWin32"]),
             .testTarget(name: "SupportTests", dependencies: ["SwiftWin32"]),
             .testTarget(name: "UICoreTests",
                         dependencies: ["SwiftWin32", "TestUtilities"])

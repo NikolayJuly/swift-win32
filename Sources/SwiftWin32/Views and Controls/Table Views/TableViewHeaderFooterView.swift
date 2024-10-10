@@ -4,7 +4,7 @@
 import WinSDK
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 /// A reusable view that you place at the top or bottom of a table section to

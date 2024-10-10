@@ -4,7 +4,7 @@
 import XCTest
 
 @testable import AutoLayoutTests
-@testable import CoreGraphicsTests
+@testable import CoreGraphicsWin32Tests
 @testable import UICoreTests
 
 XCTMain([

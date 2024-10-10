@@ -6,7 +6,7 @@ import WinSDK
 import struct Foundation.Date
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 private let SwiftDatePickerProc: SUBCLASSPROC = { (hWnd, uMsg, wParam, lParam, uIdSubclass, dwRefData) in

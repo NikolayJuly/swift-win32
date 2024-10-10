@@ -5,7 +5,7 @@ import WinSDK
 import struct Foundation.IndexPath
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 // Notification Proxy

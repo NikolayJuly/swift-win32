@@ -9,7 +9,7 @@ import let WinSDK.MB_OK
 import struct WinSDK.UINT
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 private extension Label {

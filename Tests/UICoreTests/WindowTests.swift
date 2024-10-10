@@ -4,7 +4,7 @@
 import XCTest
 import WinSDK
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 @testable import SwiftWin32
 

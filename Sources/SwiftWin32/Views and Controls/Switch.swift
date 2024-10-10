@@ -4,7 +4,7 @@
 import WinSDK
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 /// A control that offers a binary choice, such as on/off.

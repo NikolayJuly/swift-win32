@@ -4,7 +4,7 @@
 import XCTest
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 // NOTE: avoid conflict with Foundation.AffineTransform
 private typealias AffineTransform = CoreGraphics.AffineTransform
 #else

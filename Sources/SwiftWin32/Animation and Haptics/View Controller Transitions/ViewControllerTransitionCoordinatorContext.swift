@@ -4,7 +4,7 @@
 import struct Foundation.TimeInterval
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 /// Modal presentation styles available when presenting view controllers.

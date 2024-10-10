@@ -5,7 +5,7 @@ import SwiftWin32
 import Foundation
 
 #if swift(>=5.7)
-import CoreGraphics
+import CoreGraphicsWin32
 #endif
 
 private extension View {
