@@ -6,7 +6,10 @@
 .*.sw[nop]
 *~
 
+xcuserdata/
+
 /build/
+#**/.build/
 
 /package.resolved
 /Packages/

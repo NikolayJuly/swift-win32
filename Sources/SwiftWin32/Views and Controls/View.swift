@@ -410,7 +410,7 @@ public class View: Responder {
                   hCursor: LoadCursorW(nil, IDC_ARROW))
   private static let style: WindowStyle = (base: 0, extended: 0)
 
-  internal var hWnd: HWND!
+  public private(set) var hWnd: HWND!
   internal var WndClass: WindowClass
 
   internal var GWL_STYLE: LONG {
